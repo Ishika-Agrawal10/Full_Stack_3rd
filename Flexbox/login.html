@@ -1,0 +1,65 @@
+<!-- Task 1-Center a Login Card -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Login Page</title>
+
+    <style>
+
+        .login{
+            
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height : 100vh;
+
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li{
+            margin: 0 10px;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<div id="nav">
+    <div class="logo">Logo</div>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+</div>
+
+    <div class = "login Page">
+        <h2>Login </h2>
+        <input type ="text" placeholder="Enter Username">
+        <br>
+        <input type="password" placeholder="Enter Password">
+        <br>
+        <button>Login</button>
+        <p> Doesn't have an account <a href="#">Register</a> </p>
+    </div>
+
+    
+
+</body>
+</html>
